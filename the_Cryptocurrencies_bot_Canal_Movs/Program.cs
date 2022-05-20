@@ -18,7 +18,7 @@ namespace the_Cryptocurrencies_bot
         {
             ConeccionAPI api = new ConeccionAPI();
             var botClient = new TelegramBotClient("5334575224:AAG2ZDMcPJidtBydNDdqz8PQh2IVPLSGv_4");
-            var chatID = "@CryptosWorldTrading2";
+            var chatID = "@CryptosWorldTrading";
             Chequeo abc = new Chequeo();
 
             int length = await api.Lenght();
